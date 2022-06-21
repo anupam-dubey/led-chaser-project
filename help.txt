@@ -1,0 +1,43 @@
+Add and remove status
+Using the buttons on the main window,
+or use the key combinations Ctrl+Q (prepend), Ctrl+A (add later), Ctrl+D (delete)
+Add or remove ports
+Using the buttons on the main window,
+or use the key combinations Shift+Q (prepend), Shift+A (add after), Shift+D (delete)
+Increase or decrease the brightness of the gate
+Use the F2 (decrease) and F3 (increase) keys or use the mouse wheel in combination with holding the Ctrl key.
+Invert port state
+Use the spacebar or double-click the left mouse button.
+Adjust the duration of the state
+Use the F5 (decrease) and F6 (increase) keys or adjust the value in the status time display box
+side.
+Copy the brightness of a cell or an area
+Select the area to copy by holding down the left mouse button and moving the mouse to delineate the area and then release the mouse.
+You will see a yellow border if the selected area is more than 1 cell, red if it is 1 cell.
+Press the “Copy selected area” button on the main window or use Ctrl+C.
+Select the area to be pasted by holding down the left mouse button and moving the mouse to delineate the area and then release the mouse button.
+You will see a yellow border if the selected area is more than 1 cell, red if it is 1 cell.
+Press the “Paste over selected area” button on the main window or use Ctrl+V.
+Use soft port
+Right-click each cell to switch from soft port to normal port and vice versa.
+Create a loop
+Move the red box towards the first state of the process to be looped.
+Press the add loop button { on the main window or use Ctrl+L (start loop).
+Select the “Repeat count” edit box in the main window and adjust the number of iterations.
+Move the red box towards the final state of the process to be looped.
+Press the add loop button } on the main window or use Ctrl+E (end loop)
+
+SYNCHRONIZING CIRCUITS TOGETHER
+Synchronization helps connect circuits together to create multi-board effects running at the same time
+(decorating large spaces), running in order (writing calligraphy),...
+Synchronous signal transmission
+Use Shift+T
+Then the program will add a state. In this state, the circuit will emit a signal
+synchronization signal sent to the circuits connected after it. This state lasts 0 seconds.
+Wait for the sync signal
+Use Shift+N
+
+Then the program will add a state.
+The program running to this state will stop and wait to receive the synchronization signal from another circuit
+send to. When the sync signal is received, the circuit will continue to run the next states.
+The sample examples are prepared and placed in the Examples folder of the Ledimm Pro program
